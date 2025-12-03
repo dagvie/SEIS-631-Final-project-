@@ -4,7 +4,7 @@
 ---
 
 ## 1. Research Question
-I am interested in understanding how housing prices relate to high-income areas. Specifically, do areas with higher income tend to have higher housing prices?
+I am interested in understanding the distribution of price-per-bedroom. Specifically, do Colorado and Minnesota have the same avg price per bedroom?
 
 ---
 
