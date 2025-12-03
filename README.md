@@ -4,13 +4,13 @@
 ---
 
 ## 1. Research Question
-I am interested in understanding how housing prices relate to high-income areas. Specifically, do areas with higher income tend to have higher housing prices?
+I am interested in understanding the distribution of price-per-bedroom. Specifically, do Colorado and Minnesota have the same avg price per bedroom?
 
 ---
 
 ## 2. Hypothesis
-- **Null Hypothesis (H₀):** High-income areas do *not* have higher housing prices on average.  
-- **Alternative Hypothesis (H₁):** High-income areas have higher housing prices on average.
+- **Null Hypothesis (H₀):** Colorado and Minnesota have the same distribution of price-per-bedroom.  
+- **Alternative Hypothesis (H₁):** Colorado and Minnesota differ in price-per-bedroom.
 
 ---
 
