@@ -9,8 +9,8 @@ I am interested in understanding how housing prices relate to high-income areas.
 ---
 
 ## 2. Hypothesis
-- **Null Hypothesis (H₀):** High-income areas do *not* have higher housing prices on average.  
-- **Alternative Hypothesis (H₁):** High-income areas have higher housing prices on average.
+- **Null Hypothesis (H₀):** Colorado and Minnesota have the same distribution of price-per-bedroom.  
+- **Alternative Hypothesis (H₁):** Colorado and Minnesota differ in price-per-bedroom.
 
 ---
 
