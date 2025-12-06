@@ -21,18 +21,18 @@ I am interested in understanding the distribution of price-per-bedroom. Specific
 - **Key Variables:**  
   - `Price` — Housing price  
   - `Avg. Area Income` — Average income in the surrounding area  
-  - (Other variables may include area population, number of rooms, etc.)  
+  - Other variables include area population, number of rooms, etc.
 - **Cleaning/Filtering Steps:**  
   - Removed rows with missing values  
   - Verified columns were in correct numeric format  
-  - Created indicator for “high-income area” using an income threshold (if applicable)
+  - Drop NAs and duplicates 
   - Extract cities and states from the addresses columns 
 
 ---
 
 ## 4. Methods
 ### Permutation Test
-- **Test Statistic:** The difference in mean housing prices between high-income and non-high-income areas.  
+- **Test Statistic:** The difference in mean housing price per bedroom between Colorado and minnesota   
 - **Simulation Under the Null:**  
   - Shuffle the income-group labels randomly across all observations.  
   - Recalculate the difference in mean housing prices for each shuffle.  
@@ -64,7 +64,7 @@ I am interested in understanding the distribution of price-per-bedroom. Specific
 ## 6. Uncertainty Estimation
 - Number of resamples used: **5,000 permutation shuffles** and (recommended) **10,000 bootstrap samples**  
 - Interpreting the distributions:
-  - The permutation distribution represents what differences would look like if income had *no* effect on housing prices.  
+  - The permutation distribution represents what differences would look like if  Colorado and Minnesota have the same distribution of price-per-bedroom. 
   - The bootstrap distribution shows the sampling variability of the observed difference.  
 - Interpretation will depend on whether the CI includes zero and how extreme the observed statistic is compared to the null distribution.
 
