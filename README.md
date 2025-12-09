@@ -1,4 +1,3 @@
-
 # SEIS-631-Final-project
 ## Project Title: US Housing Price Analysis
 
@@ -70,4 +69,5 @@ I am interested in understanding the distribution of price-per-bedroom. Specific
 - Interpretation will depend on whether the CI includes zero and how extreme the observed statistic is compared to the null distribution.
 
 ---
+
 
