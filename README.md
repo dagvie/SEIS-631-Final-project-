@@ -20,7 +20,7 @@ I am interested in understanding the distribution of price-per-bedroom. Specific
 - **Unit of Analysis:** Each observation represents a single housing record.  
 - **Key Variables:**  
   - `Price` — Housing price  
-  - `Avg. Area Income` — Average income in the surrounding area  
+  - `Avg. Area Number of Rooms` — Average income in the surrounding area  
   - Other variables include area population, number of rooms, etc.
 - **Cleaning/Filtering Steps:**  
   - Removed rows with missing values  
