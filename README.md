@@ -62,7 +62,8 @@ I am interested in understanding the distribution of price-per-bedroom. Specific
 ---
 
 ## 6. Uncertainty Estimation
-- Number of resamples used: **5,000 permutation shuffles** and (recommended) **10,000 bootstrap samples**  
+- Number of resamples used: **5,000 permutation shuffles** 
+bootstrap samples**  
 - Interpreting the distributions:
   - The permutation distribution represents what differences would look like if  Colorado and Minnesota have the same distribution of price-per-bedroom. 
   - The bootstrap distribution shows the sampling variability of the observed difference.  
