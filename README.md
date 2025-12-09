@@ -68,6 +68,18 @@ bootstrap samples**
   - The permutation distribution represents what differences would look like if  Colorado and Minnesota have the same distribution of price-per-bedroom. 
   - The bootstrap distribution shows the sampling variability of the observed difference.  
 - Interpretation will depend on whether the CI includes zero and how extreme the observed statistic is compared to the null distribution.
+## 7. Conclusion 
+The permutation test compares the observed difference in average price per bedroom between Colorado and Minnesota to what we would expect if there were no real difference between states. 
+
+A P-value of 0.57 is very large, meaning the observed difference in price-per-bedroom between Colorado and Minnesota is not usual at all under the null hypothesis. 
+
+A difference this large happens about 55% of the times just by random chance when Colorado and Minnesoat data are shuffled.
+
+This means there is there is no statistical evidence that the average price per bedroom differs between the two states.
+
+Based on my sample, it appears Colorado and Minnesota have simular price per bedroom.
+
+However, Colorado appears slightly more expensive per bedroom, but the permutation test shows this difference is not statistically meaningful. The observed difference is common even when the two states’ prices are randomly mixed, so we cannot conclude that MN and CO differ in true housing costs.
 
 ---
 
