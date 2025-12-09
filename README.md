@@ -1,4 +1,4 @@
-# SEIS-631-Final-project- 
+# SEIS-631-Final-project
 ## Project Title: US Housing Price Analysis
 
 ---
